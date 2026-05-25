@@ -41,7 +41,7 @@ The RAG pipeline ensures that answers are **based on real document context** to 
 ## 📋 Prerequisites  
 Before running the project, make sure you have:  
 - 🐍 Python **3.9+** installed  
-- 📦 **Ollama** installed and running locally → [Install Ollama](https://ollama.ai/)  
+- 📦 **Ollama** installed and running locally → [Install Ollama](https://ollama.ai/)  or Cohere API
 - 📥 Pull required models in Ollama:  
   ```bash
   ollama pull llama3.1
@@ -67,7 +67,7 @@ Follow these steps to set up and run the project locally:
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/muqadasejaz/pdf-qa-rag-system.git
+git clone https://github.com/AtharvaAnbhule/RAG-Textbook-Extraction/.git
 ```
 
 2️⃣ Create a Virtual Environment (Recommended)
@@ -139,8 +139,6 @@ streamlit run app.py
 
 The system follows a **RAG (Retrieval-Augmented Generation)** pipeline for answering questions from PDFs.  
 
-<img width="1200" height="596" alt="architecture" src="https://github.com/user-attachments/assets/ecb02057-4c08-416f-9310-0192aa3138c5" />
-
 
 ### Workflow:
 1. 📂 **PDF Documents** → Uploaded by the user.  
@@ -197,30 +195,6 @@ This project is built with the help of:
 - [Ollama](https://ollama.ai/) – for running **LLaMA 3.1** locally  
 - [Streamlit](https://streamlit.io/) – for the user-friendly interface  
 - [ChromaDB / FAISS](https://www.trychroma.com/) – as vector databases for semantic search  
-- [nomic-embed-text](https://huggingface.co/nomic-ai/nomic-embed-text) – for text embeddings  
+- [nomic-embed-text](https://huggingface.co/nomic-ai/nomic-embed-text) – for text embeddings
 
-Special thanks to the **open-source community** for providing tools that make projects like this possible 🚀  
-
------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-
-## 👤 Author
-
-Muqadas Ejaz
-
-BS Computer Science (AI Specialization)
-
-AI/ML Engineer
-
-Data Science & Gen AI Enthusiast
-
-📫 Connect with me on [LinkedIn](https://www.linkedin.com/in/muqadasejaz/)  
-
-🌐 GitHub: [github.com/muqadasejaz](https://github.com/muqadasejaz)
-
-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-
-## 📎 License
-
-This project is open-source and available under the [MIT License](LICENSE).
 
